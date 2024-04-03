@@ -14,7 +14,7 @@ class Uygulamam extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Mobil Hafta 6',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blueAccent),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.green.shade300),
         useMaterial3: true,
       ),
       home: const AnaEkran(),
@@ -34,7 +34,7 @@ class _AnaEkranState extends State<AnaEkran> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text("Mobil Hafta 5"),
+        title: Text("Mobil Hafta 6"),
       ),
       body: Center(
           child:
@@ -42,7 +42,57 @@ class _AnaEkranState extends State<AnaEkran> {
               //--------------
               //--------------Kodları aşağıya yazınız.
               //--------------
-              Column()
+              Column(mainAxisAlignment: MainAxisAlignment.end, children: [
+        Container(
+          height: 100,
+          color: Colors.green.shade300,
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              Container(
+                width: 75,
+                height: 75,
+                color: Colors.white,
+                child: Icon(
+                  Icons.chat,
+                  color: Colors.green.shade300,
+                  size: 50,
+                ),
+              ),
+              Container(
+                width: 75,
+                height: 75,
+                color: Colors.white,
+                child: Icon(
+                  Icons.duo,
+                  color: Colors.green.shade300,
+                  size: 50,
+                ),
+              ),
+              Container(
+                width: 75,
+                height: 75,
+                color: Colors.white,
+                child: Icon(
+                  Icons.groups,
+                  color: Colors.green.shade300,
+                  size: 50,
+                ),
+              ),
+              Container(
+                width: 75,
+                height: 75,
+                color: Colors.white,
+                child: Icon(
+                  Icons.call,
+                  color: Colors.green.shade300,
+                  size: 50,
+                ),
+              ),
+            ],
+          ),
+        )
+      ])
           //--------------
           //--------------
           //--------------
