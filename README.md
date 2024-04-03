@@ -1,16 +1,12 @@
-# mobil_w6
+# Hafta 6
+Görseldeki mobil uygulamanın kodlarını yazınız.
+![alt text](https://github.com/ezfesoft/mobil_w5/blob/main/flutter_w5_odev.png)
 
-A new Flutter project.
 
-## Getting Started
+## Mobil Programlama
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Container
+- Text
+- Column
+- Icon
+- Row
