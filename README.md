@@ -1,6 +1,6 @@
 # Hafta 6
 Görseldeki mobil uygulamanın kodlarını yazınız.
-![alt text](https://github.com/ezfesoft/mobil_w5/blob/main/flutter_w5_odev.png)
+![alt text](https://github.com/ezfesoft/mobil_w6/blob/main/flutter_w6_odev.png)
 
 
 ## Mobil Programlama
